@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import 'config';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul {
+  list-style : none;
+}
+
+h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+// img {
+//   width : 100%
+// }

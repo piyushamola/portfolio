@@ -1,0 +1,53 @@
+@import '../../../config';
+
+// .HeaderHome {
+//     background: url('../../../images/showcase.jpg') no-repeat center right/cover;
+//     height: 100vh;
+// }
+
+
+// .Logo {
+//     width: 70px;
+//     height: 70px;
+//     color: #fff;
+//     text-transform: uppercase;
+// }
+
+.Container {
+    width: 100%;
+    padding : 0 1rem;
+    background-color: $dark-color;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.MainNav {
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: 1rem 1.5rem
+    }
+}
+
+.navLink {
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+    color: #fff;
+
+    &:hover {
+        border-color: $medium-color;
+    }
+}
+
+.active {
+      border-color: $main-color;
+}
+
+
